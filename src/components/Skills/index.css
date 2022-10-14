@@ -1,0 +1,69 @@
+.top-skills {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+}
+
+.skills-ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skill-li {
+  margin: 10px;
+  background-color: #33363a;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  width: 10vw;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skill-img {
+  width: 50%;
+}
+
+.ex-lap {
+  display: flex;
+}
+
+.ex-mob {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .skill-li {
+    width: 20vw;
+  }
+  h5 {
+    font-size: 12px;
+  }
+
+  .top-skills {
+    font-weight: 500;
+    font-size: 35px;
+  }
+
+  .ex-lap {
+    display: none;
+  }
+
+  .ex-mob {
+    display: flex;
+  }
+}

@@ -1,7 +1,7 @@
 .bg {
   background-image: url("https://res.cloudinary.com/dwghs4qnf/image/upload/v1665333398/bg_jxrq1n.png");
   background-size: cover;
-  min-height: 100vh;
+  min-height: 90vh;
   max-height: 100%;
   display: flex;
   flex-direction: row;
