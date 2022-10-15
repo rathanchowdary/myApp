@@ -7,7 +7,7 @@
 .skills-container {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   padding: 10px;
   width: 100%;
@@ -18,6 +18,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  padding: 0px;
 }
 
 .skill-li {
@@ -50,6 +51,7 @@
   .skill-li {
     width: 20vw;
   }
+
   h5 {
     font-size: 12px;
   }

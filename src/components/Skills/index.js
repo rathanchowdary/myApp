@@ -75,6 +75,36 @@ const Skills = () => (
         </span>
         <h5 className="mt-3">Express</h5>
       </li>
+      <li className="skill-li">
+        <img
+          className="skill-img mt-1"
+          src="https://cdn-icons-png.flaticon.com/512/2306/2306173.png"
+          alt="skill"
+        />
+        <h5 className="mt-3">SQL</h5>
+      </li>
+    </ul>
+    <p className="text-white mt-2">Databases</p>
+    <ul className="skills-ul">
+      <li className="skill-li">
+        <img
+          className="skill-img mt-1"
+          src="https://cdn.icon-icons.com/icons2/2699/PNG/512/sqlite_logo_icon_169724.png"
+          alt="skill"
+        />
+        <h5 className="mt-3">SQLite</h5>
+      </li>
+    </ul>
+    <p className="text-white mt-2">Other</p>
+    <ul className="skills-ul">
+      <li className="skill-li">
+        <img
+          className="skill-img mt-1"
+          src="https://cdn.icon-icons.com/icons2/2415/PNG/512/git_original_logo_icon_146509.png"
+          alt="skill"
+        />
+        <h5 className="mt-3">Git</h5>
+      </li>
     </ul>
   </div>
 );
