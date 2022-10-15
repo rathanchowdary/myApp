@@ -14,7 +14,7 @@ const Projects = () => (
         />
         <div className="project-details-container">
           <span className="navigate">
-            <h5>Jobby App</h5>
+            <h5 className="pro-title">Jobby App</h5>
             <a
               href="https://rathanjobby.ccbp.tech/"
               target="_blank"
@@ -45,7 +45,7 @@ const Projects = () => (
         />
         <div className="project-details-container">
           <span className="navigate">
-            <h5>Nxt Trendz</h5>
+            <h5 className="pro-title">Nxt Trendz</h5>
             <a
               href="https://rathannxttrendz.ccbp.tech/"
               target="_blank"
@@ -77,7 +77,7 @@ const Projects = () => (
         />
         <div className="project-details-container">
           <span className="navigate">
-            <h5>Food Munch</h5>
+            <h5 className="pro-title">Food Munch</h5>
             <a
               href="https://rathanfoodmunch.ccbp.tech/"
               target="_blank"
@@ -105,7 +105,7 @@ const Projects = () => (
         />
         <div className="project-details-container">
           <span className="navigate">
-            <h5>Wikipedia Search Application</h5>
+            <h5 className="pro-title">Wikipedia Search Application</h5>
             <a
               href="https://rathanwikipedia.ccbp.tech/"
               target="_blank"
@@ -134,7 +134,7 @@ const Projects = () => (
         />
         <div className="project-details-container">
           <span className="navigate">
-            <h5>Trivia Quiz</h5>
+            <h5 className="pro-title">Trivia Quiz</h5>
             <a
               href="https://triviaquiz.ccbp.tech/"
               target="_blank"
